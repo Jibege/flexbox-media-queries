@@ -107,16 +107,46 @@ body {
 
 .socials {display: none;
 }
-
 .logo {
     width: 20%;
     
 }
 
-
-
-    
-    
   }
+
+  @media screen and (max-width: 300px) {
+    .headerFlex {
+        flex-direction: column;
+        height: 150px;
+        
+    }
+    .articles {
+        width: 100%;
+    }
+    
+    .navigation {
+        width: 100%;
+        height: calc(100%/3);
+       
+    }
+    
+    .socials {display: flex;
+        width: 100%;
+        
+        height: calc(100%/3);
+
+    }
+    .logo {
+        width: 100%;
+        
+        height: calc(100%/3);
+        
+    }
+
+    .slider {
+        display: none;
+    }
+    
+      }
 
  
