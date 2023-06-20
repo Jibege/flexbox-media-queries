@@ -40,11 +40,11 @@ body {
 }
 
 .info {
-background-color: rgba(54, 54, 54, 0.753);
-border-radius: 5px 5px 5px 5px ;
-padding: 5px 15px 5px 15px;
-color: white;
-font-weight: bolder;
+    background-color: rgba(54, 54, 54, 0.753);
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    font-weight: bolder;
 }
 
 
@@ -56,9 +56,7 @@ font-weight: bolder;
     align-items: center;
     justify-content: center;
 
-
 }
-
 
 .articlesFlex {
     background-color: blue;
@@ -77,8 +75,6 @@ font-weight: bolder;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-
 
 }
 
@@ -97,3 +93,30 @@ font-weight: bolder;
     justify-content: center;
     height: 80px;
 }
+
+@media screen and (max-width: 800px) {
+
+.articles {
+    width:  calc(100%/2);
+}
+
+.navigation {
+    width: 80%;
+   
+}
+
+.socials {display: none;
+}
+
+.logo {
+    width: 20%;
+    
+}
+
+
+
+    
+    
+  }
+
+ 
